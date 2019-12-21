@@ -1,0 +1,35 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color:#22313f;
+    border-radius: 5px;
+}
+
+.custom-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 17px;
+    margin-left: 15px;
+    transition: 0.2s ease-in all;
+}
+
+.custom-ul li:hover {
+    background-color:#6bb9f0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow:inset 2px 2px 2px lightslategrey;
+}
+
+.custom-ul li a {
+    text-decoration: none;
+    color: white;
+}
