@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.profile-card {
+    border: 1px solid lightgrey;
+    overflow: auto;
+    width: 500px;
+    position: relative;
+    border-radius: 0 4px 4px 0;
+}
+
+.avatar {
+    float: left;
+}
+
+.avatar img {
+    display: block;
+}
+
+.profile-info {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    margin:0 35px;
+}
+
+.profile-info a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: lightskyblue;
+    padding: 7px 15px;
+    border-radius: 3px;
+    transition: 0.25s ease-in-out all;
+}
+
+.profile-info a:hover {
+    background: white;
+    color: lightskyblue;
+    border:1px solid lightskyblue;
+}
