@@ -5,25 +5,34 @@
 
 .profile-card {
     border: 1px solid lightgrey;
-    overflow: auto;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     position: relative;
     border-radius: 0 4px 4px 0;
+    padding: 29px 25px;
 }
 
 .avatar {
-    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.profile-info {
+    padding-left: 235px;
+}
+
+.profile-info h3 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin:15px 0 0;
+    font-size: 16px;
 }
 
 .avatar img {
     display: block;
-}
-
-.profile-info {
-    position: absolute;
-    top: 0;
-    left: 220px;
-    margin:0 35px;
 }
 
 .profile-info a {
